@@ -2,11 +2,11 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { AnyValue } from './AnyValue';
 import type { Cas2Assessment } from './Cas2Assessment';
 import type { Cas2TimelineEvent } from './Cas2TimelineEvent';
 import type { NomisUser } from './NomisUser';
 import type { Person } from './Person';
+import type { Unit } from './Unit';
 export type Cas2SubmittedApplication = {
     id: string;
     person: Person;
@@ -14,7 +14,7 @@ export type Cas2SubmittedApplication = {
     submittedBy?: NomisUser;
     schemaVersion: string;
     outdatedSchema: boolean;
-    document?: AnyValue;
+    document?: Unit;
     submittedAt?: string;
     telephoneNumber?: string;
     timelineEvents: Array<Cas2TimelineEvent>;

@@ -2,8 +2,8 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { AnyValue } from './AnyValue';
 import type { SubmitApplication } from './SubmitApplication';
+import type { Unit } from './Unit';
 export type SubmitTemporaryAccommodationApplication = (SubmitApplication & {
     arrivalDate: string;
     isRegisteredSexOffender?: boolean;
@@ -22,6 +22,6 @@ export type SubmitTemporaryAccommodationApplication = (SubmitApplication & {
     isConcerningSexualBehaviour?: boolean;
     isConcerningArsonBehaviour?: boolean;
     prisonReleaseTypes?: Array<string>;
-    summaryData: AnyValue;
+    summaryData: Unit;
 });
 

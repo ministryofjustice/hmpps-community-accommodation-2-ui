@@ -2,12 +2,12 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { AnyValue } from './AnyValue';
 import type { ApType } from './ApType';
 import type { PlacementDates } from './PlacementDates';
 import type { PlacementRequirements } from './PlacementRequirements';
+import type { Unit } from './Unit';
 export type AssessmentAcceptance = {
-    document: AnyValue;
+    document: Unit;
     requirements?: PlacementRequirements;
     placementDates?: PlacementDates;
     apType?: ApType;

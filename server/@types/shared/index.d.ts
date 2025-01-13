@@ -6,7 +6,6 @@
 export type { ActiveOffence } from './models/ActiveOffence';
 export type { Adjudication } from './models/Adjudication';
 export type { AllocatedFilter } from './models/AllocatedFilter';
-export type { AnyValue } from './models/AnyValue';
 export type { ApArea } from './models/ApArea';
 export type { Appeal } from './models/Appeal';
 export type { AppealDecision } from './models/AppealDecision';
@@ -23,8 +22,6 @@ export type { ApprovedPremisesApplicationSummary } from './models/ApprovedPremis
 export type { ApprovedPremisesAssessment } from './models/ApprovedPremisesAssessment';
 export type { ApprovedPremisesAssessmentStatus } from './models/ApprovedPremisesAssessmentStatus';
 export type { ApprovedPremisesAssessmentSummary } from './models/ApprovedPremisesAssessmentSummary';
-export type { ApprovedPremisesBedSearchParameters } from './models/ApprovedPremisesBedSearchParameters';
-export type { ApprovedPremisesBedSearchResult } from './models/ApprovedPremisesBedSearchResult';
 export type { ApprovedPremisesSummary } from './models/ApprovedPremisesSummary';
 export type { ApprovedPremisesUser } from './models/ApprovedPremisesUser';
 export type { ApprovedPremisesUserPermission } from './models/ApprovedPremisesUserPermission';

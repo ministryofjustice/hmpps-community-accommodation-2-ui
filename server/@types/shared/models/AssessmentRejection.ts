@@ -2,9 +2,9 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { AnyValue } from './AnyValue';
+import type { Unit } from './Unit';
 export type AssessmentRejection = {
-    document: AnyValue;
+    document: Unit;
     rejectionRationale: string;
     referralRejectionReasonId?: string;
     referralRejectionReasonDetail?: string;

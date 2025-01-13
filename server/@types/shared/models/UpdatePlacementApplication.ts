@@ -2,8 +2,8 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { AnyValue } from './AnyValue';
+import type { Unit } from './Unit';
 export type UpdatePlacementApplication = {
-    data: Record<string, AnyValue>;
+    data: Record<string, Unit>;
 };
 

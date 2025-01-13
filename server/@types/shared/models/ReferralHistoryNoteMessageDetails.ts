@@ -2,11 +2,11 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { AnyValue } from './AnyValue';
+import type { Unit } from './Unit';
 export type ReferralHistoryNoteMessageDetails = {
     rejectionReason?: string;
     rejectionReasonDetails?: string;
     isWithdrawn?: boolean;
-    domainEvent?: AnyValue;
+    domainEvent?: Unit;
 };
 

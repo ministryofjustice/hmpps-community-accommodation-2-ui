@@ -5,7 +5,6 @@
 import type { SeedFromExcelFileType } from './SeedFromExcelFileType';
 export type SeedFromExcelRequest = {
     seedType: SeedFromExcelFileType;
-    premisesId: string;
     fileName: string;
 };
 
