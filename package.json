@@ -128,7 +128,7 @@
     "@ministryofjustice/frontend": "^3.2.0",
     "@sentry/node": "^7.57.0",
     "@types/jsonpath": "^0.2.0",
-    "@types/method-override": "^0.0.35",
+    "@types/method-override": "^3.0.0",
     "@types/path-to-regexp": "^1.7.0",
     "@types/qs": "^6.9.7",
     "agentkeepalive": "^4.3.0",
