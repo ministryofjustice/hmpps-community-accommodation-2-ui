@@ -150,7 +150,7 @@
     "govuk-frontend": "^5.4.0",
     "helmet": "^7.0.0",
     "http-errors": "^2.0.0",
-    "husky": "^8.0.3",
+    "husky": "^9.0.0",
     "jest-diff": "^29.6.2",
     "jsonpath": "^1.1.1",
     "jwt-decode": "^4.0.0",
