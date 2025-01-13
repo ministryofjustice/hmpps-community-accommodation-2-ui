@@ -2,7 +2,6 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { AnyValue } from './AnyValue';
 import type { ApArea } from './ApArea';
 import type { Application } from './Application';
 import type { ApprovedPremisesApplicationStatus } from './ApprovedPremisesApplicationStatus';
@@ -12,6 +11,7 @@ import type { Cas1ApplicationUserDetails } from './Cas1ApplicationUserDetails';
 import type { Cas1CruManagementArea } from './Cas1CruManagementArea';
 import type { PersonRisks } from './PersonRisks';
 import type { PersonStatus } from './PersonStatus';
+import type { Unit } from './Unit';
 export type ApprovedPremisesApplication = (Application & {
     isWomensApplication?: boolean;
     /**
@@ -31,8 +31,8 @@ export type ApprovedPremisesApplication = (Application & {
     createdByUserId: string;
     schemaVersion: string;
     outdatedSchema: boolean;
-    data?: AnyValue;
-    document?: AnyValue;
+    data?: Unit;
+    document?: Unit;
     status: ApprovedPremisesApplicationStatus;
     assessmentId?: string;
     assessmentDecision?: AssessmentDecision;

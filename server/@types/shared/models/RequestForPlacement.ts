@@ -2,10 +2,10 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { AnyValue } from './AnyValue';
 import type { PlacementDates } from './PlacementDates';
 import type { RequestForPlacementStatus } from './RequestForPlacementStatus';
 import type { RequestForPlacementType } from './RequestForPlacementType';
+import type { Unit } from './Unit';
 import type { WithdrawPlacementRequestReason } from './WithdrawPlacementRequestReason';
 export type RequestForPlacement = {
     /**
@@ -23,7 +23,7 @@ export type RequestForPlacement = {
      *
      */
     requestReviewedAt?: string;
-    document?: AnyValue;
+    document?: Unit;
     /**
      * If true, the user making this request can withdraw this request for placement.
      * If false, it may still be possible to indirectly withdraw this request for placement by withdrawing the application.

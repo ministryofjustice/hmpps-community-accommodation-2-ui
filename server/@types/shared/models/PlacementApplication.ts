@@ -2,10 +2,10 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { AnyValue } from './AnyValue';
 import type { NewPlacementApplication } from './NewPlacementApplication';
 import type { PlacementApplicationType } from './PlacementApplicationType';
 import type { PlacementDates } from './PlacementDates';
+import type { Unit } from './Unit';
 import type { WithdrawPlacementRequestReason } from './WithdrawPlacementRequestReason';
 export type PlacementApplication = (NewPlacementApplication & {
     /**
@@ -23,8 +23,8 @@ export type PlacementApplication = (NewPlacementApplication & {
     assessmentId: string;
     assessmentCompletedAt: string;
     applicationCompletedAt: string;
-    data?: AnyValue;
-    document?: AnyValue;
+    data?: Unit;
+    document?: Unit;
     canBeWithdrawn: boolean;
     isWithdrawn: boolean;
     withdrawalReason?: WithdrawPlacementRequestReason;

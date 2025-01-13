@@ -2,9 +2,9 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { AnyValue } from './AnyValue';
+import type { Unit } from './Unit';
 export type SubmitApplication = {
     type: string;
-    translatedDocument?: AnyValue;
+    translatedDocument?: Unit;
 };
 

@@ -8,6 +8,9 @@ import type { PlacementCriteria } from './PlacementCriteria';
 export type PlacementRequirements = {
     gender: Gender;
     type: ApType;
+    /**
+     * Postcode outcode
+     */
     location: string;
     radius: number;
     essentialCriteria: Array<PlacementCriteria>;

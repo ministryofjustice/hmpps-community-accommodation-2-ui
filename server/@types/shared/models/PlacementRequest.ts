@@ -26,6 +26,9 @@ export type PlacementRequest = (PlacementRequirements & PlacementDates & {
     applicationDate: string;
     assessor: ApprovedPremisesUser;
     isParole: boolean;
+    /**
+     * Notes from the assessor for the CRU Manager
+     */
     notes?: string;
     booking?: BookingSummary;
     requestType?: PlacementRequestRequestType;
