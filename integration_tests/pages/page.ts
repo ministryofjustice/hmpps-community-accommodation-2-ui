@@ -141,11 +141,16 @@ export default abstract class Page {
   }
 
   clickLink(label: string): void {
-    cy.get('a').contains(label).click()
+    cy.get('a:visible').contains(label).click()
   }
 
   shouldShowPrintButton(text = 'Download as a PDF'): void {
     cy.get('button').contains(text)
+  }
+
+  shouldContainHiddenPDFNavigationLinks(): void {
+    cy.get('a:hidden').contains('View application overview')
+    cy.get('a:hidden').contains('Update application status')
   }
 
   clickPrintButton(): void {

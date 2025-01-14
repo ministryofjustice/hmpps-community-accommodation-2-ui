@@ -24,10 +24,17 @@
 {% endblock %}
 
 {% block content %}
+	<div class="govuk-grid-row print__show">
+		<div class="govuk-grid-column-one-half">
+			<a href="{{ paths.submittedApplications.overview({id: application.id}) }}" class="govuk-link print__links_without_url" rel="noreferrer noopener" target="_blank">View application overview</a>
+		</div>
+		<div class="govuk-grid-column-one-half">
+			<a href="{{ paths.statusUpdate.new({id: application.id}) }}" class="govuk-link print__links_without_url" rel="noreferrer noopener" target="_blank">Update application status</a>
+    </div>
+	</div>
 
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-full">
-
       {{ applicationSummary({
         id: application.id,
         name: application.person.name,

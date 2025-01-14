@@ -2,7 +2,7 @@
 {% from "../../components/printButton/macro.njk" import printButton %}
 
 {% macro applicationSummary(summary) %}
-  <div id="application-summary" class="submitted-application-panel govuk-panel govuk-!-margin-bottom-7">
+  <div id="application-summary" class="submitted-application-panel govuk-panel">
 
     <h1 class="govuk-panel__title govuk-!-margin-bottom-5">
       {%if summary.view == 'checkYourAnswers'%}

@@ -66,6 +66,9 @@ context('Assessor views submitted application', () => {
 
     //  And I see a print button
     page.shouldShowPrintButton()
+
+    // And visually hidden PDF navigation links are on the page
+    page.shouldContainHiddenPDFNavigationLinks()
   })
 
   //  Scenario: navigate to the 'update status' page

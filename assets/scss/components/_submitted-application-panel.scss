@@ -1,6 +1,13 @@
 .submitted-application-panel {
+  @include govuk-responsive-margin(7, "bottom");
+
   text-align: left;
   background: govuk-colour('blue');
+
+  @include govuk-media-query($media-type: print) {
+    background-color: govuk-colour('white');
+    margin-bottom: 0;
+  }
   color: govuk-colour('white');
 
   & &__text {
