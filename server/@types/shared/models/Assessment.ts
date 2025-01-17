@@ -4,7 +4,6 @@
 /* eslint-disable */
 import type { AssessmentDecision } from './AssessmentDecision';
 import type { ClarificationNote } from './ClarificationNote';
-import type { ReferralHistoryNote } from './ReferralHistoryNote';
 import type { Unit } from './Unit';
 export type Assessment = {
     service: string;
@@ -18,6 +17,5 @@ export type Assessment = {
     rejectionRationale?: string;
     data?: Unit;
     clarificationNotes: Array<ClarificationNote>;
-    referralHistoryNotes?: Array<ReferralHistoryNote>;
 };
 
